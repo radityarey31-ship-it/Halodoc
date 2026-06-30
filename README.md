@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rincian Rekomendasi Istirahat - Halodoc</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f7f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 20px 15px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 450px;
+            background: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Header Logo */
+        .header-logo {
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .logo-icon {
+            width: 28px;
+            height: 28px;
+            color: #ff4d4d;
+        }
+
+        .logo-text {
+            font-size: 26px;
+            font-weight: 700;
+            color: #e02444;
+            letter-spacing: -0.5px;
+        }
+
+        /* Card Wrapper */
+        .card {
+            width: 90%;
+            background: #ffffff;
+            border-radius: 4px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            border: 1px solid #f0f0f0;
+            overflow: hidden;
+            margin-bottom: 40px;
+        }
+
+        .card-title {
+            text-align: center;
+            font-size: 14px;
+            font-weight: 700;
+            color: #333333;
+            padding: 15px;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        /* Detail List */
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 16px;
+            font-size: 13px;
+            line-height: 1.4;
+        }
+
+        .label {
+            color: #777777;
+            flex: 1;
+        }
+
+        .value {
+            color: #222222;
+            font-weight: 600;
+            text-align: right;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo Brand -->
+        <div class="header-logo">
+            <!-- Representasi SVG sederhana dari logo Halodoc -->
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+            </svg>
+            <span class="logo-text">halodoc</span>
+        </div>
+
+        <!-- Kartu Rincian -->
+        <div class="card">
+            <div class="card-title">Rincian Rekomendasi Istirahat</div>
+            
+            <div class="detail-row">
+                <span class="label">Nama pasien</span>
+                <span class="value">Radityo wibowo</span>
+            </div>
+            
+            <div class="detail-row">
+                <span class="label">Tanggal lahir</span>
+                <span class="value">12 Mei 1999</span>
+            </div>
+            
+            <div class="detail-row">
+                <span class="label">Gender</span>
+                <span class="value">Male</span>
+            </div>
+            
+            <div class="detail-row">
+                <span class="label">Nama dokter</span>
+                <span class="value">Fandi Sukowicaksono</span>
+            </div>
+            
+            <div class="detail-row">
+                <span class="label">Tanggal konsultasi</span>
+                <span class="value">30 Juni 2026</span>
+            </div>
+            
+            <div class="detail-row">
+                <span class="label">Istirahat mulai</span>
+                <span class="value">30 Juni 2026</span>
+            </div>
+            
+            <div class="detail-row">
+                <span class="label">Hingga</span>
+                <span class="value">30 Juni 2026</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
